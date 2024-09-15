@@ -80,11 +80,19 @@ transition: 0.3s;
     align-items: center;
 }
 
+.home-content{
+    padding: 50px;
+}
+
+.home-img{
+    padding: 10px;
+}
+
 .home-img img{
     margin: 0 20px;
     height: 310px;
     width: 300px;
-    border-radius: 50px;
+    border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -175,7 +183,7 @@ span{
     margin: 0 20px;
     height: 330px;
     width: 300px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .heading{
